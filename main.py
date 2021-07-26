@@ -33,14 +33,14 @@ pygame.display.set_caption("My first game")
 
 class Game:
     def __init__(self):
-        # window
+        # window setting
         self.win = pygame.display.set_mode((WIN_WIDTH, WIN_HEIGHT))
 
-        # hp
+        # hp setting
         self.hp = 7
         self.max_hp = 10
 
-        # font set
+        # font setting
         self.font = pygame.font.SysFont('Comic Sans MS', 20)
         pass
 
